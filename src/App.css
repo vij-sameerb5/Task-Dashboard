@@ -1,0 +1,47 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.task-form input, .task-form select {
+  margin: 5px;
+  padding: 8px;
+}
+
+.task-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+.task-grid .task-card {
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+
+.task-card.low { background-color: #dff0d8; }
+.task-card.medium { background-color: #fcf8e3; }
+.task-card.high { background-color: #f2dede; }
+
+@media (max-width: 600px) {
+  .task-grid {
+      grid-template-columns: 1fr;
+  }
+}
+
+.task-form input, .task-form select, .task-form button {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.task-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.task-card:hover {
+  transform: scale(1.02);
+}

@@ -3,7 +3,8 @@
 A clean, dark-themed, responsive task manager built with React and TypeScript.  
 Add, search, and delete tasks with animated cards and priority-based styling.
 
-![Screenshot](./screenshot.png) <!-- Replace with an actual screenshot path if available -->
+<img width="1708" alt="Screenshot 2025-04-02 at 3 22 13 PM" src="https://github.com/user-attachments/assets/3192ffbd-979c-4a7f-9f4c-5ec461851bd7" />
+
 
 ---
 
